@@ -46,6 +46,7 @@ public class State : Transitionable
 
     public virtual void Start()
     {
+       // realTransitions = new ();
         InitializeTransitions();
         //anim = GetComponent<Animator>();
         //stateMachine = GetComponent<StateMachine>();

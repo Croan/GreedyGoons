@@ -135,10 +135,10 @@ public class StateMachine : Transitionable
     {
         foreach (Transition t in currentState.realTransitions)
         {
-            print("checking transitions for " + name + " , " + currentState.name + ", " + t.name);
+           // print("checking transitions for " + name + " , " + currentState.name + ", " + t.name);
             if (t.CheckAllTransitions(this))
             {
-                print(t.name + " passed");
+                //print(t.name + " passed");
                 InteruptTo(t.toState);
 
                 return true;

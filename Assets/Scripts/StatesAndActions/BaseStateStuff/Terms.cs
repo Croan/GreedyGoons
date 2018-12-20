@@ -14,6 +14,7 @@ public static class Terms {
     public static string punchingVar = "punchVar";
 	public static string rowingVar = "rowVar";
     public static string getHitVar = "getHitVar";
+    public static string beatenVar = "beatenVar";
 
 
     public static string idleState = typeof(IdleState).ToString();

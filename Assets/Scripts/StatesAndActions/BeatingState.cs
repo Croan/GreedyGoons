@@ -17,7 +17,8 @@ public class BeatingState : State
 		nextPunch = 0.0f;
 		anim.Play ("BeatingSelect");
         GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-        target.TransitionTo(Terms.beatenState);
+        //target.TransitionTo(Terms.beatenState);
+        target.SetTrue(Terms.beatenVar);
         target.transform.position = new Vector3(transform.position.x-.2f, transform.position.y-.5f, transform.position.z);
 		this.GetComponent<SpriteRenderer> ().sortingOrder = target.GetComponent<SpriteRenderer>().sortingOrder + 1;
 
@@ -75,7 +76,7 @@ public class BeatingState : State
         if (Time.time > lastTackleEnded + 1)
         {
             target = targ;
-            return stateMachine.TransitionTo(this);
+            return stateMachine.InteruptTo(this);
         }
         return false;
     }
