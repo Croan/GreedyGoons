@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1379829462676738}
+  m_IsPrefabAsset: 1
+--- !u!1 &1379829462676738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4101627028903452}
+  - component: {fileID: 114975156953270324}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4101627028903452
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1379829462676738}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114975156953270324
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1379829462676738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4be4c6555ef86144d8db41a2adede264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeBGM: 0.5
+  volumeSFX: 0.5
+  sfxCroc: {fileID: 8300000, guid: 2ec5b0fbed4d6af44821ce4033bb6e90, type: 3}
+  sfxDeath:
+  - {fileID: 8300000, guid: 2c33354bd12cdb044abbb1b9bb6a8ba3, type: 3}
+  - {fileID: 8300000, guid: 83e89c0e420bef24486a72d2637e07e2, type: 3}
+  - {fileID: 8300000, guid: eb3ef84e6ba7ed44f807aee45031de01, type: 3}
+  sfxGrab: {fileID: 8300000, guid: 28f7770a759209041b040083e5ac3276, type: 3}
+  sfxHurt:
+  - {fileID: 8300000, guid: b977557907334e8479127617cfeb1e7c, type: 3}
+  - {fileID: 8300000, guid: 91e0595c141a1e1468a398a34daa88fc, type: 3}
+  - {fileID: 8300000, guid: a6c069d5895ec5c428513dbef8b13c27, type: 3}
+  sfxMummy: {fileID: 8300000, guid: e7bdae367fc10874eb6e16bcfb8f78a3, type: 3}
+  sfxPunch: {fileID: 8300000, guid: 50ce056204198e74cb53198f7a8ed6f0, type: 3}
+  sfxSpit: {fileID: 8300000, guid: bb3377bfcd13df74baa924d768b7f7f4, type: 3}
+  sfxSpitter: {fileID: 8300000, guid: 4630a1c9211d68d46a31b30963bbdb18, type: 3}
+  sfxStep: {fileID: 8300000, guid: e0c15a8c074200d4fa6371a8537162e3, type: 3}
+  sfxTreasure: {fileID: 8300000, guid: cae8ed56769437e46ab6ab264abdbad3, type: 3}
