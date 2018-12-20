@@ -11,23 +11,37 @@ public class State : Transitionable
 {
     [HideInInspector]
     public StateMachine stateMachine;
-    [HideInInspector]
-    public Animator anim;
-    protected Rigidbody2D rigid;
+
+
     public List<IAction> actions;
     public List<IListener> listeners;
 
     public List<Transition> realTransitions;
 
+
+
+    [HideInInspector]
+    public string animName;
+    protected Animator anim;
+    protected Rigidbody2D rigid;
+
     public virtual void Awake()
     {
-        actions = new List<IAction>();
-        listeners = new List<IListener>();
         anim = GetComponent<Animator>();
         rigid = GetComponent<Rigidbody2D>();
+        actions = new List<IAction>();
+        listeners = new List<IListener>();
+
         stateMachine = GetComponent<StateMachine>();
         // badname = new List<string> { GetType().ToString() };
-        badname = GetType().ToString();
+        badname = GetBadName();
+        animName = GetBadName().Remove(badname.Length - 5);
+
+    }
+
+    public virtual string GetBadName()
+    {
+        return GetType().ToString();
     }
 
     public virtual void Start()
@@ -38,10 +52,9 @@ public class State : Transitionable
         // badname = GetType().ToString();
     }
 
-
-    public void InitializeTransitions()
+    
+    public virtual void InitializeTransitions()
     {
-
         TransitionInitializer.Instance.RequestTransitions(this);
     }
 

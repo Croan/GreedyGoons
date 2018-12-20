@@ -24,7 +24,7 @@ public class WalkingState : State {
     {
         base.Start();
         //transitions = new List<string> { typeof(IdleState).ToString() , typeof(PunchingState).ToString() , StateNames.bad};
-        SetupTransitions(new HashSet<string> { Terms.idleState, Terms.attack, Terms.bad });
+        //SetupTransitions(new HashSet<string> { Terms.idleState, Terms.attack, Terms.bad });
         actions.Add(new WalkingAction(this));
         mover = GetComponent<Mover>();
     }

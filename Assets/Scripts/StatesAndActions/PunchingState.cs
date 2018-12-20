@@ -35,7 +35,7 @@ public class PunchingState : State
         base.Start();
         actions.Add(new WalkingAction(this));
         //transitions = new List<string> { typeof(IdleState).ToString() , StateNames.bad };
-        SetupTransitions(new HashSet<string> { typeof(IdleState).ToString(), Terms.bad });
+        //SetupTransitions(new HashSet<string> { typeof(IdleState).ToString(), Terms.bad });
     }
 
     public override void UpdateAction()

@@ -13,7 +13,7 @@ public class GoingOntoRaft : MonoBehaviour {
 		if (s) {
 			print ("got here enter");
 			debugDry = 1;
-			s.SetTrue (Terms.dryVar);
+			s.SetFalse (Terms.wetVar);
 		} else
 			print ("no state machine on object " + collision.gameObject.name);
 	}
@@ -25,7 +25,7 @@ public class GoingOntoRaft : MonoBehaviour {
 		{
 			print ("got here leave");
 			debugDry = 0;
-			s.SetFalse(Terms.dryVar);
+			s.SetTrue(Terms.wetVar);
 		}
 	}
 

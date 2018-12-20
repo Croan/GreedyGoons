@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e864f69ea0209754e949df034b0439dc, type: 3}
+  m_Name: Transitionalizer
+  m_EditorClassIdentifier: 
+  transitions:
+  - {fileID: 11400000, guid: cfa7633aee6b9b0409902d79478b2c30, type: 2}
+  - {fileID: 11400000, guid: f46c217fda8b9324993027130d12aa38, type: 2}
+  - {fileID: 11400000, guid: e0a46d36c958893409ccdbfb555dba07, type: 2}
+  - {fileID: 11400000, guid: 5f708c71bf2523f449957a3d4368079f, type: 2}
+  - {fileID: 11400000, guid: ae166527df7331f4cad9a0fd707acb90, type: 2}
+  - {fileID: 11400000, guid: 29e6c1652616cfc46848da80752e9b7b, type: 2}
+  - {fileID: 11400000, guid: 9e139d3af5de8124ea216666fbb0cde1, type: 2}
+  - {fileID: 11400000, guid: cabce56679e6a2f4a95e348ffffcf51e, type: 2}
+  - {fileID: 11400000, guid: 08f45ee726735884ba0b588aaa6c87b7, type: 2}
+  - {fileID: 11400000, guid: 311a63cc92245b34ab081bf0b2dede80, type: 2}

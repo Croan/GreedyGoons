@@ -24,7 +24,7 @@ public class IdleState : State
 
         base.Start();
         //transitions = new List<string>{ typeof(WalkingState).ToString() , typeof(PunchingState).ToString(), StateNames.bad};
-        SetupTransitions(new HashSet<string> { Terms.walkState, Terms.attack, Terms.bad });
+        //SetupTransitions(new HashSet<string> { Terms.walkState, Terms.attack, Terms.bad });
     }
 
     public override void UpdateAction()
