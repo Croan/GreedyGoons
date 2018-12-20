@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{290DF6CE-6A98-4AA5-98AA-5F3E7B70AAA1}" SchemaVersion="89">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{290DF6CE-6A98-4AA5-98AA-5F3E7B70AAA1}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{290DF6CE-6A98-4AA5-98AA-5F3E7B70AAA1}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{AAF91F45-46A5-4E6C-8B08-EC8EA2B323E6}">
+					<ObjectInclusionList>
+						<ObjectRef Name="PlayerPunch" ID="{C9BB6A2A-025B-4063-9B8C-668F24928613}" WorkUnitID="{B3232C48-3A3B-44DD-916F-CACE58B6C579}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayerSwim" ID="{54BA48EC-4537-4217-91AB-1CC1AF5EDEB3}" WorkUnitID="{B3232C48-3A3B-44DD-916F-CACE58B6C579}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SpitterCry" ID="{23D3E74D-1A78-42B0-ADAF-3635B2B4D77A}" WorkUnitID="{B3232C48-3A3B-44DD-916F-CACE58B6C579}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayerHurt" ID="{7D258D75-D650-42C2-A8A1-168B9E4D216D}" WorkUnitID="{B3232C48-3A3B-44DD-916F-CACE58B6C579}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CoinPicikup" ID="{9C3604CE-5A5B-46FC-9656-47E74DFAF08B}" WorkUnitID="{B3232C48-3A3B-44DD-916F-CACE58B6C579}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayerStep" ID="{F73B6343-CCFD-479C-AF80-715AAD807246}" WorkUnitID="{B3232C48-3A3B-44DD-916F-CACE58B6C579}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CrocCry" ID="{E01F6FF7-3F57-48B6-B106-9ED1F0C8648D}" WorkUnitID="{B3232C48-3A3B-44DD-916F-CACE58B6C579}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StartMusic" ID="{26FEBF6A-93DA-4C3A-8D35-206109938AE1}" WorkUnitID="{B3232C48-3A3B-44DD-916F-CACE58B6C579}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MummyCry" ID="{78B4B7F0-2B17-4CDE-84B7-70ED3C22C0A3}" WorkUnitID="{B3232C48-3A3B-44DD-916F-CACE58B6C579}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CrocGrab" ID="{87127C3C-6B42-4EB9-8CCB-9E456C9D8B56}" WorkUnitID="{B3232C48-3A3B-44DD-916F-CACE58B6C579}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

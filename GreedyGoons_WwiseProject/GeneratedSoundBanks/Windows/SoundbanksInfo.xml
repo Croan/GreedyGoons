@@ -16,5 +16,72 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1668078473" Name="CoinPicikup" ObjectPath="\Events\Default Work Unit\CoinPicikup"/>
+				<Event Id="1360483428" Name="CrocCry" ObjectPath="\Events\Default Work Unit\CrocCry"/>
+				<Event Id="1767585834" Name="CrocGrab" ObjectPath="\Events\Default Work Unit\CrocGrab"/>
+				<Event Id="3864997638" Name="MummyCry" ObjectPath="\Events\Default Work Unit\MummyCry"/>
+				<Event Id="3537581393" Name="PlayerHurt" ObjectPath="\Events\Default Work Unit\PlayerHurt"/>
+				<Event Id="3312008230" Name="PlayerPunch" ObjectPath="\Events\Default Work Unit\PlayerPunch"/>
+				<Event Id="412471812" Name="PlayerStep" ObjectPath="\Events\Default Work Unit\PlayerStep"/>
+				<Event Id="3968782598" Name="PlayerSwim" ObjectPath="\Events\Default Work Unit\PlayerSwim" MaxAttenuation="0.000000"/>
+				<Event Id="1373860844" Name="SpitterCry" ObjectPath="\Events\Default Work Unit\SpitterCry"/>
+				<Event Id="3827058668" Name="StartMusic" ObjectPath="\Events\Default Work Unit\StartMusic"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="89258355" Language="SFX">
+					<ShortName>SFX_Grab.wav</ShortName>
+					<Path>SFX\SFX_Grab_56D34C19.wem</Path>
+				</File>
+				<File Id="142423070" Language="SFX">
+					<ShortName>SFX_Hurt1.wav</ShortName>
+					<Path>SFX\SFX_Hurt1_56D34C19.wem</Path>
+				</File>
+				<File Id="147678817" Language="SFX">
+					<ShortName>SFX_Mummy.wav</ShortName>
+					<Path>SFX\SFX_Mummy_56D34C19.wem</Path>
+				</File>
+				<File Id="305786520" Language="SFX">
+					<ShortName>SFX_Hurt3.wav</ShortName>
+					<Path>SFX\SFX_Hurt3_56D34C19.wem</Path>
+				</File>
+				<File Id="325615754" Language="SFX">
+					<ShortName>SFX_Croc.wav</ShortName>
+					<Path>SFX\SFX_Croc_56D34C19.wem</Path>
+				</File>
+				<File Id="459104241" Language="SFX">
+					<ShortName>SFX_Treasure.wav</ShortName>
+					<Path>SFX\SFX_Treasure_56D34C19.wem</Path>
+				</File>
+				<File Id="586116497" Language="SFX">
+					<ShortName>SFX_Punch.wav</ShortName>
+					<Path>SFX\SFX_Punch_56D34C19.wem</Path>
+				</File>
+				<File Id="749523470" Language="SFX">
+					<ShortName>SFX_Hurt2.wav</ShortName>
+					<Path>SFX\SFX_Hurt2_56D34C19.wem</Path>
+				</File>
+				<File Id="749720677" Language="SFX">
+					<ShortName>Forgotten Winds.wav</ShortName>
+					<Path>SFX\Forgotten Winds_8956FC97.wem</Path>
+				</File>
+				<File Id="775978752" Language="SFX">
+					<ShortName>SFX_Step.wav</ShortName>
+					<Path>SFX\SFX_Step_56D34C19.wem</Path>
+				</File>
+				<File Id="851850476" Language="SFX">
+					<ShortName>SFX_Spitter.wav</ShortName>
+					<Path>SFX\SFX_Spitter_56D34C19.wem</Path>
+				</File>
+				<File Id="869060273" Language="SFX">
+					<ShortName>The Drowned.wav</ShortName>
+					<Path>SFX\The Drowned_8956FC97.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

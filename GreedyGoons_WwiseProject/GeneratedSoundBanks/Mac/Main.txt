@@ -1,0 +1,26 @@
+Event	ID	Name			Wwise Object Path	Notes
+	412471812	PlayerStep			\Default Work Unit\PlayerStep	
+	1360483428	CrocCry			\Default Work Unit\CrocCry	
+	1373860844	SpitterCry			\Default Work Unit\SpitterCry	
+	1668078473	CoinPicikup			\Default Work Unit\CoinPicikup	
+	1767585834	CrocGrab			\Default Work Unit\CrocGrab	
+	3312008230	PlayerPunch			\Default Work Unit\PlayerPunch	
+	3537581393	PlayerHurt			\Default Work Unit\PlayerHurt	
+	3827058668	StartMusic			\Default Work Unit\StartMusic	
+	3864997638	MummyCry			\Default Work Unit\MummyCry	
+	3968782598	PlayerSwim			\Default Work Unit\PlayerSwim	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	89258355	SFX_Grab	D:\git\GreedyGoons\GreedyGoons_WwiseProject\.cache\Mac\SFX\SFX_Grab_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Grab		22620
+	142423070	SFX_Hurt1	D:\git\GreedyGoons\GreedyGoons_WwiseProject\.cache\Mac\SFX\SFX_Hurt1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Hurt\SFX_Hurt1		139200
+	147678817	SFX_Mummy	D:\git\GreedyGoons\GreedyGoons_WwiseProject\.cache\Mac\SFX\SFX_Mummy_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mummy		257852
+	305786520	SFX_Hurt3	D:\git\GreedyGoons\GreedyGoons_WwiseProject\.cache\Mac\SFX\SFX_Hurt3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Hurt\SFX_Hurt3		188992
+	325615754	SFX_Croc	D:\git\GreedyGoons\GreedyGoons_WwiseProject\.cache\Mac\SFX\SFX_Croc_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Croc		206680
+	459104241	SFX_Treasure	D:\git\GreedyGoons\GreedyGoons_WwiseProject\.cache\Mac\SFX\SFX_Treasure_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Treasure		52244
+	586116497	SFX_Punch	D:\git\GreedyGoons\GreedyGoons_WwiseProject\.cache\Mac\SFX\SFX_Punch_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Punch		49836
+	749523470	SFX_Hurt2	D:\git\GreedyGoons\GreedyGoons_WwiseProject\.cache\Mac\SFX\SFX_Hurt2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Hurt\SFX_Hurt2		113216
+	749720677	Forgotten Winds	D:\git\GreedyGoons\GreedyGoons_WwiseProject\.cache\Mac\SFX\Forgotten Winds_8956FC97.wem		\Interactive Music Hierarchy\Music\MusicSwitch\PedestalMusic\Forgotten Winds\Forgotten Winds		20664128
+	775978752	SFX_Step	D:\git\GreedyGoons\GreedyGoons_WwiseProject\.cache\Mac\SFX\SFX_Step_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Step		6204
+	851850476	SFX_Spitter	D:\git\GreedyGoons\GreedyGoons_WwiseProject\.cache\Mac\SFX\SFX_Spitter_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Spitter		49464
+	869060273	The Drowned	D:\git\GreedyGoons\GreedyGoons_WwiseProject\.cache\Mac\SFX\The Drowned_8956FC97.wem		\Interactive Music Hierarchy\Music\MusicSwitch\RaftMusic\The Drowned\The Drowned		16765020
+

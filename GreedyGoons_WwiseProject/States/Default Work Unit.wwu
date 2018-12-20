@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{983DBFFA-72C2-4186-BDD5-4D1749B3A17E}" SchemaVersion="89">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{983DBFFA-72C2-4186-BDD5-4D1749B3A17E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{983DBFFA-72C2-4186-BDD5-4D1749B3A17E}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Level" ID="{7565989A-AB25-4FB2-9EA0-3BC57D207664}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{3EEB2B2A-503E-45BF-BCA1-10D2124B5BE3}"/>
+						<State Name="Raft" ID="{3E4E9BB0-B6EC-45FC-95FD-E30A06FB1909}"/>
+						<State Name="Title" ID="{D637520D-0409-4F6C-885D-2811F7E7FFF8}"/>
+						<State Name="Pedestal" ID="{73DA45A7-EA25-4925-A3B6-30213C7DEB33}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

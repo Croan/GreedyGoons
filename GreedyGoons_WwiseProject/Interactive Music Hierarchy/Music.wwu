@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C171C893-5BE8-476F-9AEE-DBD08B1464FD}" SchemaVersion="89">
+	<InteractiveMusic>
+		<WorkUnit Name="Music" ID="{C171C893-5BE8-476F-9AEE-DBD08B1464FD}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="MusicSwitch" ID="{04670E93-CF78-4F23-A8B4-2A1575664F9C}" ShortID="404560380">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A533B80A-2BD1-47C6-AEFE-8790E30B99FC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B0D9109-4072-4EBE-BACA-DE37332E6B12}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="PedestalMusic" ID="{985B1E20-D730-41A4-BAE0-26A77F876DC6}" ShortID="487129036">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A533B80A-2BD1-47C6-AEFE-8790E30B99FC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B0D9109-4072-4EBE-BACA-DE37332E6B12}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Forgotten Winds" ID="{B21E8749-BA08-4ECF-A18F-C02C6327C12E}" ShortID="157620256">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="134138.464901141"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="140"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A533B80A-2BD1-47C6-AEFE-8790E30B99FC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B0D9109-4072-4EBE-BACA-DE37332E6B12}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Forgotten Winds" ID="{E19AC63F-DF23-4125-A4AD-0D2BA1E6E8D5}" ShortID="23511750">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B0D9109-4072-4EBE-BACA-DE37332E6B12}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Forgotten Winds" ID="{66912297-DF64-4FD4-9639-270F8D992B3A}" ShortID="749720677">
+													<Language>SFX</Language>
+													<AudioFile>Forgotten Winds.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{F6E122C7-7C54-4891-BFCA-B3616E70FDDA}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{88A8A025-8B42-4377-90A9-50B5DD02CCCD}">
+													<ClipList>
+														<MusicClip Name="Forgotten Winds" ID="{D107F4CE-A758-4875-88E7-81F2ECD5EFB7}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="117142.857142857"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Forgotten Winds" ID="{66912297-DF64-4FD4-9639-270F8D992B3A}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{26769410-C16B-4782-86CA-58C5A7073484}"/>
+										<MusicCue Name="Exit Cue" ID="{A6131A9E-CEF6-4B85-AFCE-D4E8CAF04A8C}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="106285.714285714"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{EC1333F3-F60D-431A-B532-6F897FA6E3BA}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{2327935D-5C66-4F04-ABE7-6252EE8E620E}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{169377DB-0385-4D39-B009-C6CDE239DBAB}" ShortID="776175130">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="1"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{88697AEA-22A0-4B84-B52B-44A72AC3BDFB}" ShortID="566630293">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Forgotten Winds" ID="{B21E8749-BA08-4ECF-A18F-C02C6327C12E}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="RaftMusic" ID="{D9917C94-A1AB-4318-8E61-582C32306688}" ShortID="404047412">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A533B80A-2BD1-47C6-AEFE-8790E30B99FC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B0D9109-4072-4EBE-BACA-DE37332E6B12}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="The Drowned" ID="{BFC2B7A3-A4B0-4537-9C38-2ED8BD688C47}" ShortID="629350335">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="108500"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="160"/>
+										<Property Name="TimeSignatureUpper" Type="int16" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A533B80A-2BD1-47C6-AEFE-8790E30B99FC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B0D9109-4072-4EBE-BACA-DE37332E6B12}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="The Drowned" ID="{F58EE9CE-3D3A-414F-9E7A-4AE436992A7B}" ShortID="641565027">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B0D9109-4072-4EBE-BACA-DE37332E6B12}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="The Drowned" ID="{25519DDC-0D9F-45E5-9089-B4E36F4FF0C1}" ShortID="869060273">
+													<Language>SFX</Language>
+													<AudioFile>The Drowned.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D53441A5-3CF5-4BE8-B97B-D832C0CA0B04}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{7F77A176-2983-4EEE-B145-A8BBAD6D62B5}">
+													<ClipList>
+														<MusicClip Name="The Drowned" ID="{1DA9443D-3604-4C5C-AB25-27A5B2F3B5E7}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="95039.0702947846"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="The Drowned" ID="{25519DDC-0D9F-45E5-9089-B4E36F4FF0C1}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{BACFEC3F-5880-4985-8207-2E97FEFC30B7}"/>
+										<MusicCue Name="Exit Cue" ID="{9EE80B69-5E3A-435C-9FCA-B633AE3619F8}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="90000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{6D168404-F225-4559-BED7-A7059212DC78}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{0FED0A74-439F-4166-8044-4F5ADE89C515}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{1CB9A6E6-4ECB-4E02-88A3-E6918AAF9B0A}" ShortID="1049850276">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{9FC4E211-460A-4597-87D4-BFC2B384035D}" ShortID="206219181">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="The Drowned" ID="{BFC2B7A3-A4B0-4537-9C38-2ED8BD688C47}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{FB411C01-5134-4FF0-BC94-AEEA6AE3F4D6}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{67D308CB-4CC3-47A8-8CC5-D22082D55DE7}">
+									<PropertyList>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="EnableTransitionFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+									</PropertyList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{577E1BFC-F448-4154-8D6D-7129B6EDD6B1}">
+												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{5783B0B7-336D-46BE-BFAB-47F498E950F0}"/>
+										</DestinationFadeIn>
+										<TransitionFadeIn>
+											<MusicFade Name="Transition Fade-in" ID="{E0F54DBC-8C4D-41FA-AA9B-EAFF677476D3}"/>
+										</TransitionFadeIn>
+										<TransitionFadeOut>
+											<MusicFade Name="Transition Fade-out" ID="{AEB7F1A2-7CA4-420F-B0DA-941E74FBF25F}">
+												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</TransitionFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Level" ID="{7565989A-AB25-4FB2-9EA0-3BC57D207664}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Pedestal" ID="{73DA45A7-EA25-4925-A3B6-30213C7DEB33}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="PedestalMusic" ID="{985B1E20-D730-41A4-BAE0-26A77F876DC6}" WorkUnitID="{C171C893-5BE8-476F-9AEE-DBD08B1464FD}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Raft" ID="{3E4E9BB0-B6EC-45FC-95FD-E30A06FB1909}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="RaftMusic" ID="{D9917C94-A1AB-4318-8E61-582C32306688}" WorkUnitID="{C171C893-5BE8-476F-9AEE-DBD08B1464FD}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

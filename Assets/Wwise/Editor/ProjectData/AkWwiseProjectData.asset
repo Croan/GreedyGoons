@@ -28,14 +28,143 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: cef60d29986aa54a98aa5f3e7b70aaa1
-    m_lastTime: -8586563247808332326
-    List: []
+    m_lastTime: -8586563199737876426
+    List:
+    - name: Main
+      guid: 451ff9aaa5466c4e8b08ec8ea2b323e6
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 482c23b33b3add44916fcace58b6c579
-    m_lastTime: -8586563247808542190
-    List: []
+    m_lastTime: -8586563199792549815
+    List:
+    - name: CoinPicikup
+      guid: ce04369c5b5afc46965647e74dfaf08b
+      id: 1668078473
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CoinPicikup
+        ObjectType: 3
+      Path: Default Work Unit\CoinPicikup
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: CrocCry
+      guid: f76f1fe0573fb648b1069ed1f0c8648d
+      id: 1360483428
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CrocCry
+        ObjectType: 3
+      Path: Default Work Unit\CrocCry
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: CrocGrab
+      guid: 3c7c1287426bb94e8ccb9e456c9d8b56
+      id: 1767585834
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CrocGrab
+        ObjectType: 3
+      Path: Default Work Unit\CrocGrab
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: MummyCry
+      guid: f0b7b478172bde4c84b770ed3c22c0a3
+      id: 3864997638
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MummyCry
+        ObjectType: 3
+      Path: Default Work Unit\MummyCry
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayerHurt
+      guid: 758d257d50d6c242a8a1168b9e4d216d
+      id: 3537581393
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayerHurt
+        ObjectType: 3
+      Path: Default Work Unit\PlayerHurt
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayerPunch
+      guid: 2a6abbc95b0263409b8c668f24928613
+      id: 3312008230
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayerPunch
+        ObjectType: 3
+      Path: Default Work Unit\PlayerPunch
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayerStep
+      guid: 43633bf7fdcc9c47af80715aad807246
+      id: 412471812
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayerStep
+        ObjectType: 3
+      Path: Default Work Unit\PlayerStep
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayerSwim
+      guid: ec48ba543745174291ab1cc1af5edeb3
+      id: 3968782598
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayerSwim
+        ObjectType: 3
+      Path: Default Work Unit\PlayerSwim
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SpitterCry
+      guid: 4de7d323781ab042adaf3635b2b4d77a
+      id: 1373860844
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SpitterCry
+        ObjectType: 3
+      Path: Default Work Unit\SpitterCry
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StartMusic
+      guid: 6abffe26da933a4c8d35206109938ae1
+      id: 3827058668
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: StartMusic
+        ObjectType: 3
+      Path: Default Work Unit\StartMusic
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -46,8 +175,42 @@ MonoBehaviour:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: fabf3d98c2728641bdd54d1749b3a17e
-    m_lastTime: -8586563247808312331
-    List: []
+    m_lastTime: -8586563200304929625
+    List:
+    - name: Level
+      guid: 9a98657525abb24f9ea03bc57d207664
+      id: 2782712965
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Level
+        ObjectType: 9
+      Path: Default Work Unit\Level
+      values:
+      - name: None
+        guid: 2a2beb3e3e50bf45bca110d2124b5be3
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: Pedestal
+        guid: a745da7325ea2549a3b630213c7deb33
+        id: 2544092651
+        PathAndIcons:
+        - ElementName: Pedestal
+          ObjectType: 8
+      - name: Raft
+        guid: b09b4e3eecb6fc4595fde30a06fb1909
+        id: 1925960664
+        PathAndIcons:
+        - ElementName: Raft
+          ObjectType: 8
+      - name: Title
+        guid: 0d5237d609046c4f885d2811f7e7fff8
+        id: 3705726509
+        PathAndIcons:
+        - ElementName: Title
+          ObjectType: 8
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -60,6 +223,7 @@ MonoBehaviour:
     guid: 5aa07e2f2ede984089ea8b4a275f303e
     m_lastTime: -8586563247808522211
     List: []
-  ExpandedItems: []
+  ExpandedItems:
+  - /GreedyGoons_WwiseProject
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

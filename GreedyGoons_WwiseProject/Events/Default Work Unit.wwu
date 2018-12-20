@@ -1,6 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B3232C48-3A3B-44DD-916F-CACE58B6C579}" SchemaVersion="89">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{B3232C48-3A3B-44DD-916F-CACE58B6C579}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B3232C48-3A3B-44DD-916F-CACE58B6C579}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PlayerStep" ID="{F73B6343-CCFD-479C-AF80-715AAD807246}">
+					<ChildrenList>
+						<Action Name="" ID="{7A9CBE7B-6B35-4EBE-B7DC-490F791BA6BC}" ShortID="11085322">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Step" ID="{F4985D11-26B0-4BD0-BDDD-C3AE6C298F52}" WorkUnitID="{EBC9B856-751F-4674-AE0F-99C045A7BC60}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CrocCry" ID="{E01F6FF7-3F57-48B6-B106-9ED1F0C8648D}">
+					<ChildrenList>
+						<Action Name="" ID="{BDEE7B73-FEC5-4DED-B2AF-B4A2CA3B368D}" ShortID="341410213">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Croc" ID="{63BD2267-268B-4170-9717-E7B8AC049ADF}" WorkUnitID="{EBC9B856-751F-4674-AE0F-99C045A7BC60}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayerPunch" ID="{C9BB6A2A-025B-4063-9B8C-668F24928613}">
+					<ChildrenList>
+						<Action Name="" ID="{E9F71F52-F63B-4C96-A89A-62CE26F44764}" ShortID="404902404">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Punch" ID="{83BC0BFE-E9EA-4C22-AB2D-CF86991124D2}" WorkUnitID="{EBC9B856-751F-4674-AE0F-99C045A7BC60}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayerHurt" ID="{7D258D75-D650-42C2-A8A1-168B9E4D216D}">
+					<ChildrenList>
+						<Action Name="" ID="{6D35B7B8-AF9D-4F35-9F22-B83976726481}" ShortID="257216927">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Hurt" ID="{10CCC48D-56F4-4108-AB9D-FB796F0DE2BF}" WorkUnitID="{EBC9B856-751F-4674-AE0F-99C045A7BC60}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CrocGrab" ID="{87127C3C-6B42-4EB9-8CCB-9E456C9D8B56}">
+					<ChildrenList>
+						<Action Name="" ID="{E83E922E-7589-4392-BBFA-A208615DEBC9}" ShortID="794291308">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Grab" ID="{D500CEDC-4D94-4616-A097-D0DCFBA33782}" WorkUnitID="{EBC9B856-751F-4674-AE0F-99C045A7BC60}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MummyCry" ID="{78B4B7F0-2B17-4CDE-84B7-70ED3C22C0A3}">
+					<ChildrenList>
+						<Action Name="" ID="{EC7BB756-90D6-4C34-98F1-E09280FD3D7B}" ShortID="256521578">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Mummy" ID="{AE563F49-F8A9-4FE5-B5EE-1EF4873CBA0F}" WorkUnitID="{EBC9B856-751F-4674-AE0F-99C045A7BC60}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CoinPicikup" ID="{9C3604CE-5A5B-46FC-9656-47E74DFAF08B}">
+					<ChildrenList>
+						<Action Name="" ID="{8C77B789-724A-4C11-9C0A-096C1E18C882}" ShortID="39221360">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Treasure" ID="{98F4D318-2A92-4F0D-9087-AF9A255C6F5D}" WorkUnitID="{EBC9B856-751F-4674-AE0F-99C045A7BC60}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayerSwim" ID="{54BA48EC-4537-4217-91AB-1CC1AF5EDEB3}"/>
+				<Event Name="SpitterCry" ID="{23D3E74D-1A78-42B0-ADAF-3635B2B4D77A}">
+					<ChildrenList>
+						<Action Name="" ID="{494C9833-1273-4EA1-A3A9-F621123B7477}" ShortID="559934397">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Spitter" ID="{75C3EE03-8467-409A-BC64-2F22EFC6D853}" WorkUnitID="{EBC9B856-751F-4674-AE0F-99C045A7BC60}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StartMusic" ID="{26FEBF6A-93DA-4C3A-8D35-206109938AE1}">
+					<ChildrenList>
+						<Action Name="" ID="{8C0C6CC6-6B4D-4AD8-A880-313C269C7AB2}" ShortID="768572138">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicSwitch" ID="{04670E93-CF78-4F23-A8B4-2A1575664F9C}" WorkUnitID="{C171C893-5BE8-476F-9AEE-DBD08B1464FD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
