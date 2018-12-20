@@ -19,7 +19,8 @@ public class MoneyMaker : MonoBehaviour {
     private void OnTriggerEnter2D (Collider2D collision) {
         if (collision.gameObject.CompareTag("Player")) {
             countCollected += 1;
-            SoundManager.Instance.PlaySFX(SoundManager.Instance.sfxTreasure, transform.position, 0.7f);
+            EventManager.Instance.coinPickup.Post(gameObject);
+            //SoundManager.Instance.PlaySFX(SoundManager.Instance.sfxTreasure, transform.position, 0.7f);
             Destroy(gameObject);
         }
     }

@@ -33,7 +33,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="T+WxyqwrSUq0e6vPf84wQA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="RR/5qqVGbE6LCOyOorMj5g=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="AwmsXn2cy0Cg5pDz16siLgH/////////ciFhm2WoKEus96DbTPMVOQH/////////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="ciFhm2WoKEus96DbTPMVOQH/////////AwmsXn2cy0Cg5pDz16siLgH/////////"/>
 				<Property Name="Interactive Music\x64_{B21E8749-BA08-4ECF-A18F-C02C6327C12E} - SegmentEditorZoomInfo" Type="string" Value="kEaPqCDbwD8AAAAAAADwPwAAAAAAkGxAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{BFC2B7A3-A4B0-4537-9C38-2ED8BD688C47} - SegmentEditorZoomInfo" Type="string" Value="mpmZmZmZuT8AAAAAAADwPwAAAAAAkGxAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
@@ -53,7 +53,9 @@
 				<Property Name="Music Transition List\{B386BF6A-E43F-4125-B186-21447BCA95BE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{D37B83CE-E1A6-4E94-8D68-8D0205D7D643}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{D9917C94-A1AB-4318-8E61-582C32306688}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{E19AC63F-DF23-4125-A4AD-0D2BA1E6E8D5}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{EC75BC7F-2128-42D0-9859-3A3800B1E020}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{F58EE9CE-3D3A-414F-9E7A-4AE436992A7B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{2388DAEA-9775-46C6-A2ED-C5222A397756}"/>

@@ -21,6 +21,7 @@ public class AlligatorAcumen : BasicFollowBrain {
     }
 
 	protected override void PlayCry() {
-		SoundManager.Instance.PlaySFX (SoundManager.Instance.sfxCroc, transform.position, 0.7f);
+        EventManager.Instance.crocCry.Post(gameObject);
+        //SoundManager.Instance.PlaySFX (SoundManager.Instance.sfxCroc, transform.position, 0.7f);
 	}
 }

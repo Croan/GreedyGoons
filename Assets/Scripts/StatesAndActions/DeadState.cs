@@ -10,7 +10,8 @@ public class DeadState : State
 
     public override void EnterAction()
     {
-		SoundManager.Instance.PlaySFXFromList (SoundManager.Instance.sfxHurt, transform.position, 0.7f);
+        EventManager.Instance.playerHurt.Post(gameObject);
+        //SoundManager.Instance.PlaySFXFromList (SoundManager.Instance.sfxHurt, transform.position, 0.7f);
 		anim.Play ("DeadSelect");
         rigid.velocity = Vector2.zero;
         base.EnterAction();

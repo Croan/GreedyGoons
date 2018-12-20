@@ -20,7 +20,8 @@ public class MummyMind : BasicFollowBrain
     }
 
 	protected override void PlayCry() {
-		SoundManager.Instance.PlaySFX (SoundManager.Instance.sfxMummy, transform.position, 0.5f);
+        EventManager.Instance.mummyCry.Post(gameObject);
+        //SoundManager.Instance.PlaySFX (SoundManager.Instance.sfxMummy, transform.position, 0.5f);
 	}
 
 }

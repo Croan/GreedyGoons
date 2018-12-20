@@ -8,7 +8,8 @@ public class PunchHit : HitBox
 
     public override void ApplyHit(HurtBox cd)
     {
-		SoundManager.Instance.PlaySFX (SoundManager.Instance.sfxPunch, transform.position, 0.6f);
+        EventManager.Instance.playerPunch.Post(gameObject);
+		//SoundManager.Instance.PlaySFX (SoundManager.Instance.sfxPunch, transform.position, 0.6f);
         //cd.processor.RecievePunch(this, hitVelocity);
         cd.owner.GetComponent<StateMachine>().TransitionTo(Terms.stunState);
             cd.owner.GetComponent<Rigidbody2D>().velocity =

@@ -12108,47 +12108,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c448d1e9aa932bc47b89f5d8ef20250f, type: 3}
---- !u!1001 &280521730
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4101627028903452, guid: 408a5ca004f413f47a193552b632672c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4101627028903452, guid: 408a5ca004f413f47a193552b632672c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4101627028903452, guid: 408a5ca004f413f47a193552b632672c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4101627028903452, guid: 408a5ca004f413f47a193552b632672c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4101627028903452, guid: 408a5ca004f413f47a193552b632672c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4101627028903452, guid: 408a5ca004f413f47a193552b632672c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4101627028903452, guid: 408a5ca004f413f47a193552b632672c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4101627028903452, guid: 408a5ca004f413f47a193552b632672c, type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 408a5ca004f413f47a193552b632672c, type: 3}
 --- !u!1 &299470023 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1977318284516214, guid: c448d1e9aa932bc47b89f5d8ef20250f,
@@ -47452,6 +47411,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1843558385}
   - component: {fileID: 1843558384}
+  - component: {fileID: 1843558386}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -47499,8 +47459,60 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1843558386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843558383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c2172f847da8d140b034a4b9b1decbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinPickup:
+    valueGuid: 
+    WwiseObjectReference: {fileID: 11400000, guid: 00ccbbbe52e240a4f966fadad2a9893b,
+      type: 2}
+  crocCry:
+    valueGuid: 
+    WwiseObjectReference: {fileID: 11400000, guid: 48e576a90dc4ec446be2689bb2a7670e,
+      type: 2}
+  crocGrab:
+    valueGuid: 
+    WwiseObjectReference: {fileID: 11400000, guid: d3becce89dc8a1d42a1837dac7f6f80d,
+      type: 2}
+  mummyCry:
+    valueGuid: 
+    WwiseObjectReference: {fileID: 11400000, guid: e83c1dc93342bc747adc2b5f62f4c015,
+      type: 2}
+  playerHurt:
+    valueGuid: 
+    WwiseObjectReference: {fileID: 11400000, guid: 895cc247353e25c48a8a5f739c040587,
+      type: 2}
+  playerPunch:
+    valueGuid: 
+    WwiseObjectReference: {fileID: 11400000, guid: f8ff96b3a58a09c41a6eea823d0ebe7c,
+      type: 2}
+  playerStep:
+    valueGuid: 
+    WwiseObjectReference: {fileID: 11400000, guid: 32dbd77b2e68d4b41bfaadc53861bf7b,
+      type: 2}
+  playerSwim:
+    valueGuid: 
+    WwiseObjectReference: {fileID: 11400000, guid: 824e30f9c5675fb42a0bc842569e369f,
+      type: 2}
+  spitterCry:
+    valueGuid: 
+    WwiseObjectReference: {fileID: 11400000, guid: 77b08fe2fdbabff4291dd029b60cf28c,
+      type: 2}
+  startMusic:
+    valueGuid: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8f037fd9074d6b441b59b57397f5bbd0,
+      type: 2}
 --- !u!4 &1990044116 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4754314344769302, guid: a6470aed654dd604fa613eaeb8068b08,

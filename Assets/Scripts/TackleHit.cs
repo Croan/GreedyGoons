@@ -18,8 +18,10 @@ public class TackleHit : HitBox
         print(owner.name + ", " + cd.owner.name );
         owner.GetComponent<BeatingState>().CheckAndTransitionTo(cd.owner.GetComponent<StateMachine>());
 
-		SoundManager.Instance.PlaySFX (SoundManager.Instance.sfxCroc, transform.position, 0.7f);
-		SoundManager.Instance.PlaySFX (SoundManager.Instance.sfxGrab, transform.position, 0.3f); // FIND NEW SOUND
+        EventManager.Instance.crocCry.Post(gameObject);
+        EventManager.Instance.crocGrab.Post(gameObject);
+        //SoundManager.Instance.PlaySFX (SoundManager.Instance.sfxCroc, transform.position, 0.7f);
+        //SoundManager.Instance.PlaySFX (SoundManager.Instance.sfxGrab, transform.position, 0.3f); // FIND NEW SOUND
         //cd.processor.RecievePinned(this);
 
     }

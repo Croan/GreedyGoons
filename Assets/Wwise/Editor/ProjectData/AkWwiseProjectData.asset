@@ -28,7 +28,7 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: cef60d29986aa54a98aa5f3e7b70aaa1
-    m_lastTime: -8586563199737876426
+    m_lastTime: -8586563197237023825
     List:
     - name: Main
       guid: 451ff9aaa5466c4e8b08ec8ea2b323e6
@@ -43,7 +43,7 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 482c23b33b3add44916fcace58b6c579
-    m_lastTime: -8586563199792549815
+    m_lastTime: -8586563197268239495
     List:
     - name: CoinPicikup
       guid: ce04369c5b5afc46965647e74dfaf08b
@@ -175,7 +175,7 @@ MonoBehaviour:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: fabf3d98c2728641bdd54d1749b3a17e
-    m_lastTime: -8586563200304929625
+    m_lastTime: -8586563197237003838
     List:
     - name: Level
       guid: 9a98657525abb24f9ea03bc57d207664
@@ -225,5 +225,7 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /GreedyGoons_WwiseProject
+  - /GreedyGoons_WwiseProject/Events
+  - /GreedyGoons_WwiseProject/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

@@ -33,9 +33,10 @@ public class WalkingAction : BaseAction, IAction {
         rigid.velocity = mover.direction * mover.speed;
         //rend.transform.powwwwwwwwwwwwwwwsition = new Vector3(0, Mathf.Cos(ownerState.stateMachine.timeSinceLastChange), 0);
 		if (mover.direction != Vector2.zero && ownerState.stateMachine.timeSinceLastChange >= nextStep) {
-			SoundManager.Instance.PlaySFX (SoundManager.Instance.sfxStep, ownerState.transform.position, 0.1f);
+            EventManager.Instance.playerStep.Post(ownerState.gameObject);
+            //SoundManager.Instance.PlaySFX (SoundManager.Instance.sfxStep, ownerState.transform.position, 0.1f);
             //nextStep += 0.3f;
-            nextStep += 0.6f/Mathf.Sqrt(mover.speed);
+            nextStep += 0.3f/Mathf.Sqrt(mover.speed);
 		}
     }
 
